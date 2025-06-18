@@ -1,0 +1,28 @@
+
+
+body {
+    color: white;
+    background-color: black;
+    font-family: "Courier New", monospace;;
+} 
+
+.terminal {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.6ch;
+  height: 1em;
+  background-color: gray;  
+  animation: blink 0.8s steps(2, start) infinite;
+  vertical-align: bottom;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
