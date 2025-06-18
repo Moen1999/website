@@ -26,3 +26,57 @@ body {
   50%  { opacity: 0; }
   100% { opacity: 1; }
 }
+.folder {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.folder:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.file {
+  color: #00ff00;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.file:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 200px;
+  background-color: black;
+  border-right: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar-header {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.folder-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
